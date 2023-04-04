@@ -1,0 +1,110 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyXCFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SimpleAlgorithms",
+        "printedName": "SimpleAlgorithms",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SimpleAlgorithms",
+                "printedName": "MyXCFramework.SimpleAlgorithms",
+                "usr": "s:13MyXCFramework16SimpleAlgorithmsC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13MyXCFramework16SimpleAlgorithmsCACycfc",
+            "mangledName": "$s13MyXCFramework16SimpleAlgorithmsCACycfc",
+            "moduleName": "MyXCFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "fibonacci",
+            "printedName": "fibonacci(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MyXCFramework16SimpleAlgorithmsC9fibonacciyS2iF",
+            "mangledName": "$s13MyXCFramework16SimpleAlgorithmsC9fibonacciyS2iF",
+            "moduleName": "MyXCFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "factorial",
+            "printedName": "factorial(n:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MyXCFramework16SimpleAlgorithmsC9factorial1nS2i_tF",
+            "mangledName": "$s13MyXCFramework16SimpleAlgorithmsC9factorial1nS2i_tF",
+            "moduleName": "MyXCFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13MyXCFramework16SimpleAlgorithmsC",
+        "mangledName": "$s13MyXCFramework16SimpleAlgorithmsC",
+        "moduleName": "MyXCFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
